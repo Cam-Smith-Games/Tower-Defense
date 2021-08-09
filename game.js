@@ -109,11 +109,11 @@ const game = {
         imagePaths.forEach(path => {
             let img = new Image();
             img.onload = onload;
-            img.src = "/img/" + path + ".png";
+            img.src = "img/" + path + ".png";
             images[path] = img;
         });
 
-        soundPaths.forEach(path => sounds[path] = new Sound("/sound/" + path + ".wav", onload));
+        soundPaths.forEach(path => sounds[path] = new Sound("sound/" + path + ".wav", onload));
     },
 
 
