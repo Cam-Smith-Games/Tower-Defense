@@ -365,7 +365,7 @@ $(document).ready(function () {
 
             html += "<div class='tower center' data-tower='" + type + "'>\
                         <div class='image-container'>\
-                            <img src='/img/towers/" + type + "1.png' />\
+                            <img src='img/towers/" + type + "1.png' />\
                         </div>\
                         <div>\
                             <label class='bold'>" + type + "</label>\
